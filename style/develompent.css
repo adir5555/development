@@ -7,7 +7,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; margin: 0 200px;
 }
 .text-primary{
     color: tomato;
@@ -35,4 +35,17 @@ nav li{
 }
 nav a{
     text-decoration: none; color: #474747;
+}
+/* header related styles */
+
+.header{
+    background: #FFF8F3;
+}
+.banner{
+   padding:30px 30px 30px 150px ;
+   display: flex;
+   align-items: center;
+}
+.banner .profile{
+    width: 500px;
 }
